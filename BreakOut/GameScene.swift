@@ -14,13 +14,14 @@ class GameScene: SKScene {
     var ball = SKShapeNode()
     var paddle = SKSpriteNode()
     var brick = SKSpriteNode()
-    var loseZone = SKSpriteNode()
+   var loseZone = SKSpriteNode()
     
     override func didMove(to view: SKView) {
         createBackground()
         makeBall()
         makePaddle()
         makeBrick()
+        makeLoseZone()
         
     }
     func createBackground() {
