@@ -20,6 +20,7 @@ class GameScene: SKScene {
         createBackground()
         makeBall()
         makePaddle()
+        makeBrick()
         
     }
     func createBackground() {
